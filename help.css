@@ -1,0 +1,92 @@
+html, body{
+    padding: 0%;
+    margin: 0%;
+    background: #253237;
+}
+nav{
+    height: 100px;
+    padding-top: 1%;
+    background-color: #5C6B73;
+}
+
+h1{
+    position: relative;
+    top: -60px;
+    padding-left: 41%;
+    right: 120px;
+    font-weight: bolder;
+    font-size: 500%;
+    font-family: 'Bebas Neue', sans-serif;
+    color: wheat;
+}
+.contact-form {
+    background-color: #5C6B73;
+    padding: 80px;
+    border-radius: 120px;
+  }
+  
+  .contact-form label {
+    color: black;
+    font-family: 'Bebas Neue', sans-serif;
+  }
+  
+  .contact-form .heading {
+    font-size: 54px;
+    color: black;
+    ;
+    margin-bottom: 12px;
+    font-weight: bold;
+    display: block;
+    font-family: 'Bebas Neue', sans-serif;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    resize: none;
+    height: 80px;
+    width: 910px;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form input:focus, .contact-form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #253237;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .contact-form button[type="submit"] {
+    background-color: wheat;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .contact-form button[type="submit"]:hover {
+   background-color: white;
+  }
+  .contact-form #up{
+    background-color: white;
+    padding-left: 800px;
+    
+  }
+  .contact-form #Description{
+    padding-right: 840px;
+  }

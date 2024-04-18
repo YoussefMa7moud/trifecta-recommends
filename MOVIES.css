@@ -1,0 +1,221 @@
+html, body{
+    padding: 0%;
+    margin: 0%;
+    
+    background: #253237;
+}
+nav{
+    height: 100px;
+    padding-top: 1%;
+    background-color: #5C6B73;
+}
+h1{
+    position: relative;
+    top: -60px;
+    padding-left: 200px;
+    right: 120px;
+    font-weight: bolder;
+    font-size: 500%;
+    font-family: 'Bebas Neue', sans-serif;
+    color: wheat;
+}
+a{
+    position:relative;
+    bottom: 190px;
+    padding-left: 60px;
+    padding-right: 80px;
+    left: 45%;
+    color: azure;
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: solid ;
+    font-size: x-large;
+
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+#Community{
+    position:relative;
+    bottom: 190px;
+    padding-left: 70px;
+    padding-right: 80px;
+    left: 45%;
+    color: black;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: x-large;
+    background-color: wheat;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+}
+#Community:hover{
+    background-color: white;
+}
+#Movie1space{
+background-color:#253237 ;
+padding-top: 0%w;
+padding-bottom: 2px;
+padding-left: 11px;
+}
+#m1{
+    position: relative;
+    height: 600px;
+    top: 99px;
+    padding-left: 29px;
+    border-radius: 39px;
+}
+#button{
+    
+    font-weight: bolder;
+    position: relative;
+    top : -40px;
+    color: white;
+    background-color:#5C6B73;
+    font-size: xx-large;
+    padding-right: 129px;
+    
+}
+#button:hover{
+    background-color: black;
+}
+#title{
+    margin-left: 20%;
+    margin-top: -10%;
+    position: relative;
+    top: -139px;
+}
+#where{
+    color: white;
+    margin-left: 20%;
+    margin-top: -7%;
+    position: relative;
+    top: -239px;
+    
+}
+#tv1{
+    height: 300px;
+    padding-left: 1320px;
+    position: relative;
+    bottom: 399px;
+}
+#M1V{
+    position: absolute;
+    right: 0;
+    bottom: 19px;;
+    
+
+}
+#Movie2space{
+   background-color:#111719;
+   padding-top: 900px;
+   padding-top: 0%;
+   padding-bottom: 2px;
+padding-left: 11px;
+}
+#m2{
+    position: relative;
+    height: 600px;
+    top: 190px;
+    padding-left: 29px;
+    border-radius: 39px;
+}
+#button2{
+    
+    font-weight: bolder;
+    position: relative;
+    top: 130px;
+    color: white;
+    background-color:#5C6B73;
+    font-size: xx-large;
+    padding-right: 129px;
+    
+}
+#button2:hover{
+    background-color: black;
+}
+#title2{
+    margin-left: 20%;
+    margin-top: -10%;
+    position: relative;
+    top: -39px;
+}
+#where2{
+    color: white;
+    margin-left: 20%;
+    margin-top: -10%;
+    position: relative;
+    top: -89px;
+    
+}
+#tv12{
+    height: 300px;
+    padding-left: 1320px;
+    position: relative;
+    bottom: 199px;
+}
+#M2V{
+    position: absolute;
+    right: 0;
+    top: 1000px;;
+    
+
+}
+
+
+
+#Movie3space{
+    background-color:#111719;
+    padding-top: 900px;
+    padding-top: 19%;
+    padding-bottom: 2px;
+    padding-left: 10px;
+
+}
+#m3{
+    position: relative;
+    height: 600px;
+    top: 190px;
+    padding-left: 29px;
+    border-radius: 39px;
+}
+#button3{
+    
+    font-weight: bolder;
+    position: relative;
+    top: 130px;
+    color: white;
+    background-color:#5C6B73;
+    font-size: xx-large;
+    padding-right: 129px;
+    
+}
+#button3:hover{
+    background-color: black;
+}
+#title3{
+    margin-left: 20%;
+    margin-top: -10%;
+    position: relative;
+    top: -39px;
+}
+#where3{
+    color: white;
+    margin-left: 20%;
+    margin-top: -10%;
+    position: relative;
+    top: -89px;
+    
+}
+#tv13{
+    height: 300px;
+    padding-left: 1320px;
+    position: relative;
+    bottom: 199px;
+}
+#M3V{
+    position: absolute;
+    right: 0;
+    top: 2140px;;
+    
+}

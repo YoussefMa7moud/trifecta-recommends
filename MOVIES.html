@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="MOVIES.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>img{max-width: 100%;height: auto;}</style>
+    <style>video{max-width: 100%;height: auto;}</style>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"/>
+
+    <title>Movies</title>
+</head>
+<body>
+    <div id="container">
+        <nav>
+            <script>
+        
+                var colors = ["white", "black", "wheat",];
+               var index = 0;
+               
+               function changeColor() {
+                   var randomIndex = Math.floor(Math.random() * colors.length);
+                   var color = colors[randomIndex];
+                   document.getElementById("logo").style.color = color;
+               }
+               setInterval(function() {
+                   changeColor();
+               }, 1000);      
+               
+                   </script>
+           <h1 id="logo">Trifecta Recommends</h1> 
+           <a href="index.html">HOME</a>
+           <a href="MOVIES.html">MOVIES</a>
+           <a href="GAMES.html">GAMES</a>
+           <a href="Series.html">SERIES</a>
+           <button id="Community" type="button" onclick="location.href='Community.html'">Community</button>
+        </nav>
+        <div id="Movie1space">
+            <video id="M1V" autoplay loop muted plays-inline>
+                <source src="Ph/SaveTube.io-Fight Club - Basement _ Fight scene (HD)-(1080p).mp4" type="video/mp4">
+                </video>
+            <img id="m1" src="Ph/FightClub.jpg" alt="m1"><img/>
+            <a id="button" href="https://www.imdb.com/title/tt0137523/?ref_=tt_mv_close" target="_blank">View on IMDB</a>
+            <h1 id="title">FightClub</h1>
+            <h1 id="where">Where to watch ?</h1>
+            <img id="tv1" src="Ph/Appletv.jpg" alt="tv"></img>
+            
+ 
+
+        </div>
+        <div id="Movie2space">
+            <video id="M2V" autoplay loop muted plays-inline>
+                <source src="Ph/SaveTube.io-1917 - Official Trailer [HD]-(1080p).mp4" type="video/mp4">
+                </video>
+            <img id="m2" src="Ph/wp5127859.jpg" alt="m2"><img/>
+            <a id="button2" href="https://www.imdb.com/title/tt8579674/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_1917" target="_blank">View on IMDB</a>
+            <h1 id="title2">1917</h1>
+            <h1 id="where2">Where to watch ?</h1>
+            <img id="tv12" src="Ph/Appletv.jpg" alt="tv"></img>
+            
+
+
+        </div>
+        <div id="Movie3space">
+            <video id="M3V" autoplay loop muted plays-inline>
+                <source src="Ph/thesocialnet.mp4" type="video/mp4">
+                </video>
+            <img id="m3" src="Ph/thesocialnetwork.jpg" alt="m3"><img/>
+            <a id="button3" href="https://www.imdb.com/title/tt1285016/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_the%2520socia" target="_blank">View on IMDB</a>
+            <h1 id="title3">The Social Network</h1>
+            <h1 id="where3">Where to watch ?</h1>
+            <img id="tv13" src="Ph/Netflix.png" alt="tv"></img>
+
+
+
+        </div>
+    
+</body>
+</html>

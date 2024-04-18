@@ -1,0 +1,63 @@
+html, body{
+    padding: 0%;
+    margin: 0%;
+    
+    background: #253237;
+    
+}
+nav{
+    height: 100px;
+    padding-top: 1%;
+    background-color: #5C6B73;
+}
+
+h1{
+    position: relative;
+    top: -60px;
+    padding-left: 200px;
+    right: 120px;
+    font-weight: bolder;
+    font-size: 500%;
+    font-family: 'Bebas Neue', sans-serif;
+    color: wheat;
+}
+a{
+   position:relative;
+   bottom: 190px;
+   padding-left: 60px;
+   padding-right: 80px;
+   left: 45%;
+   color: azure;
+   font-family: 'Bebas Neue', sans-serif;
+   text-decoration: solid ;
+   font-size: x-large;
+
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.mb-3 #comment{
+    padding-right: 1500px;
+    padding-bottom: 110px;
+    position: relative;
+    top: 20px;
+    left: 12px;
+    border-radius: 9px;
+}
+.btn2btn-primary{
+    font-family: 'Bebas Neue', sans-serif;
+    position: relative;
+    bottom: 75px;
+    left: 1690px;
+    border-radius: 9px;
+    border-style: none;
+    font-size: 40px;
+    background-color: wheat;
+    padding-right: 15px;
+    padding-left: 20px;
+}
+.btn2btn-primary:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}

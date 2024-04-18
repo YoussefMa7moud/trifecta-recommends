@@ -1,0 +1,87 @@
+html, body{
+    padding: 0%;
+    margin: 0%;
+    background: #253237;
+    
+}
+nav{
+    height: 100px;
+    padding-top: 1%;
+    background-color: #5C6B73;
+}
+#logo{
+    position: relative;
+    top: -60px;
+    padding-left: 41%;
+    right: 120px;
+    font-weight: bolder;
+    font-size: 500%;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.signup{
+    background-color: #5C6B73;
+    padding: 80px;
+    border-radius: 50px;
+    padding-top: 40px;
+    position: relative;
+    left: 580px;
+    top: 99px;
+    width: 600px;
+}
+.signup #title{
+    font-size: 50px;
+    color: whitesmoke;
+    position: sticky;
+    top: 99px;
+    
+}
+.signup #user{
+    padding: 17px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-right: 350px;
+    position: relative;
+    bottom: -10px;
+    left: 20px;
+}
+.signup #password{
+    padding: 17px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-right: 350px;
+    position: relative;
+    bottom: -40px;
+    left: 20px;
+}
+.signup #button{
+    padding: 17px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-right: 250px;
+    padding-left: 250px;
+    position: relative;
+    bottom: -60px;
+    left: 20px;
+    background-color: wheat;
+    cursor: pointer;
+    
+}
+.signup #button:hover{
+    background-color: white;
+}
+.signup h1{
+    font-size: large;
+    position: relative;
+    top: 69px;
+    left: 19px;
+}
+.signup a{
+    font-size: large;
+    position: relative;
+    top: 36px;
+    left: 210px;
+}

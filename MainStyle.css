@@ -1,0 +1,148 @@
+
+
+html, body{
+    padding: 0%;
+    margin: 0%;
+    
+    background: #253237;
+    
+}
+nav{
+    height: 100px;
+    padding-top: 1%;
+    background-color: #5C6B73;
+}
+
+h1{
+    position: relative;
+    top: -60px;
+    padding-left: 200px;
+    right: 120px;
+    font-weight: bolder;
+    font-size: 500%;
+    font-family: 'Bebas Neue', sans-serif;
+    color: wheat;
+}
+a{
+   position:relative;
+   bottom: 190px;
+   padding-left: 60px;
+   padding-right: 80px;
+   left: 45%;
+   color: azure;
+   font-family: 'Bebas Neue', sans-serif;
+   text-decoration: solid ;
+   font-size: x-large;
+
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+#Community{
+    position:relative;
+    bottom: 190px;
+    padding-left: 70px;
+    padding-right: 80px;
+    left: 45%;
+    color: black;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: x-large;
+    background-color: wheat;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+}
+#Community:hover{
+    background-color: white;
+}
+#ph1{
+    
+position: relative;
+width: 800px;
+top: 10px;
+left: 1000px;
+    
+}
+#desc{
+
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 650px;
+    margin-right: 900px;
+    left: -150px;
+    font-size: large;
+    top: 90%;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+
+}
+#MT{
+color: wheat;
+font-family: 'Bebas Neue', sans-serif;
+font-size: xxx-large;
+}
+
+#timerarea{
+background-color: #111719;
+padding-top: 1%;
+margin-top: -520px;
+padding-bottom: -9999px;
+margin-bottom: 99px;
+
+
+}
+#timer{
+    color: white;
+    font-size:900%;
+    font-family: 'Bebas Neue', sans-serif;
+    padding-left: 10%;
+    position: absolute;
+    top: 1050px;
+    left:-140px;
+    
+}
+#re{
+    font-size:900%;
+    font-family: 'Bebas Neue', sans-serif;
+    padding-left: 8%;
+    position: relative;
+    top: -10px;
+}
+#toc{
+    font-size:900%;
+    font-family: 'Bebas Neue', sans-serif;
+    padding-left: 28%;
+    position: absolute;
+    top: 1430px;
+    left: -490px;
+}
+#MY{
+    height: 600px;
+    position: relative;
+    left: 1300px;
+    bottom: 270px;
+
+}
+#HELP{
+    position: relative;
+    bottom: 45px;
+    margin-left: 599px;
+    background-color: wheat;
+    color: black;
+    padding-right: 110px;
+    padding-left: 99px;
+}
+#HELP:hover{
+    background-color: white;
+    cursor: pointer;
+}
+#hus{
+    position:absolute;
+    left: -140px;
+    top: 1930px;
+    
+    
+    
+}
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="help.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"/>
+    <title>HELP</title>
+</head>
+<body>
+    <nav>
+        <script>
+    
+           var colors = ["white", "black", "wheat",];
+           var index = 0;
+           
+           function changeColor() {
+               var randomIndex = Math.floor(Math.random() * colors.length);
+               var color = colors[randomIndex];
+               document.getElementById("logo").style.color = color;
+           }
+           setInterval(function() {
+               changeColor();
+           }, 1000);      
+           
+               </script>
+       <h1 id="logo">Trifecta Recommends</h1> 
+       <div class="contact-form">
+  <span class="heading">Suggest Something</span>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="user" name="user">
+    <label for="email">Genre:</label>
+    <input type="text" id="Genre" name="Genre">
+    <label for="message">Description:</label>
+    <textarea id="Description" name="Description" ></textarea>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+    <input id="up" type="file" name="image">
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+    
+
+       
+</body>
+<script>
+
+
+
+
+
+    
+</script>
+</html>

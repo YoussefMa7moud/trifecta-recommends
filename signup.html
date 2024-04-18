@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"/>
+    <title>Sign Up</title>
+</head>
+<body>
+    <div id="container">
+        <nav>
+            <script>
+        
+               var colors = ["white", "black", "wheat",];
+               var index = 0;
+               
+               function changeColor() {
+                   var randomIndex = Math.floor(Math.random() * colors.length);
+                   var color = colors[randomIndex];
+                   document.getElementById("logo").style.color = color;
+               }
+               setInterval(function() {
+                   changeColor();
+               }, 1000);      
+               
+                   </script>
+           <h1 id="logo">Trifecta Recommends</h1> 
+        </nav>
+        <div class="signup">
+            <h1 id="title">Sign Up:</h1>
+            <input type="text" id="user" name="user" placeholder="Username">
+            <input type="password" id="password" name="password" placeholder="Password">
+            <button id="button" type="submit">Sign Up</button>
+        </div>
+</body>
+</html>

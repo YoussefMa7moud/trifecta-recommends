@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="GAMES.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"/>
+
+    <title>GAMES</title>
+</head>
+<body>
+    <div id="container">
+        <nav>
+            <script>
+        
+                var colors = ["white", "black", "wheat",];
+               var index = 0;
+               
+               function changeColor() {
+                   var randomIndex = Math.floor(Math.random() * colors.length);
+                   var color = colors[randomIndex];
+                   document.getElementById("logo").style.color = color;
+               }
+               setInterval(function() {
+                   changeColor();
+               }, 1000);      
+               
+                   </script>
+           <h1 id="logo">Trifecta Recommends</h1> 
+           <a href="index.html">HOME</a>
+           <a href="MOVIES.html">MOVIES</a>
+           <a href="GAMES.html">GAMES</a>
+           <a href="Series.html">SERIES</a>
+           <button id="Community" type="button" onclick="location.href='Community.html'">Community</button>
+        </nav>
+        <div id="Movie1space">
+            <video id="M1V" autoplay loop muted plays-inline>
+                <source src="Ph/Training Montage - Aloy Growing Up (Horizon Zero Dawn Cutscene).mp4" type="video/mp4">
+                </video>
+            <img id="m1" src="Ph/horizon.jpg" alt="m1"><img/>
+            <a id="button" href="https://www.ign.com/games/horizon-zero-dawn" target="_blank">View on IGN</a>
+            <h1 id="title">Horizon Zero Dawn</h1>
+            <h1 id="where">Where to play ?</h1>
+            <img id="tv1" src="GAMING/download2.jpg" alt="tv"></img>
+            
+ 
+
+        </div>
+        <div id="Movie2space">
+            <video id="M2V" autoplay loop muted plays-inline>
+                <source src="GAMING/spider.mp4" type="video/mp4">
+                </video>
+            <img id="m2" src="GAMING/Spider.jpg" alt="m2"><img/>
+            <a id="button2" href="https://www.ign.com/games/spider-man-miles-morales" target="_blank">View on IGN</a>
+            <h1 id="title2">Spiderman Miles Morales</h1>
+            <h1 id="where2">Where to play ?</h1>
+            <img id="tv12" src="GAMING/download2.jpg" alt="tv"></img>
+            
+
+
+        </div>
+        <div id="Movie3space">
+            <video id="M3V" autoplay loop muted plays-inline>
+                <source src="GAMING/batman.webm" type="video/mp4">
+                </video>
+            <img id="m3" src="GAMING/Batman_Arkham_Knight_Cover_Art.jpg" alt="m3"><img/>
+            <a id="button3" href="https://www.ign.com/games/batman-arkham-knight" target="_blank">View on IGN</a>
+            <h1 id="title3">Batman: Arkham Knight</h1>
+            <h1 id="where3">Where to play ?</h1>
+            <img id="tv13" src="GAMING/download.jpg" alt="tv"></img>
+
+
+
+        </div>
+</body>
+</html>
